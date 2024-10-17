@@ -11,7 +11,6 @@ import net.minecraft.world.item.Item;
 public class CommonMod {
     public static DoomAngelRingConfig config;
     public static final String MOD_ID = "doomangelring";
-//    public static final TagKey<Item> RING_REPAIR = TagKey.create(Registries.ITEM, modResource("doomangelring_repair"));
 
     public static void init() {
         CommonMod.config = AzureLibMod.registerConfig(DoomAngelRingConfig.class, ConfigFormats.json()).getConfigInstance();

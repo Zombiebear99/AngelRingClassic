@@ -16,8 +16,4 @@ public class AngelRingItem extends Item {
         return false;
     }
 
-//    @Override
-//    public boolean isValidRepairItem(@NotNull ItemStack stack, ItemStack ingredient) {
-//        return ingredient.is(CommonMod.RING_REPAIR);
-//    }
 }
