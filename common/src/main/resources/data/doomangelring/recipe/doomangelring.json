@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "F": {
+            "item": "minecraft:feather"
+        },
+        "E": {
+            "item": "doomangelring:diamondring"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "X": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "pattern": [
+        "FXF",
+        "GEG",
+        "NGN"
+    ],
+    "result": {
+        "count": 1,
+        "id": "doomangelring:angelring"
+    }
+}
